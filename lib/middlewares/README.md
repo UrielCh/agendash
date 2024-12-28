@@ -18,8 +18,8 @@ Then use it as follows:
 'use strict';
 
 const Hapi = require('hapi');
-const { Agenda } = require('agenda');
-const Agendash = require('agendash');
+const { Agenda } = require('@u4/agenda');
+const Agendash = require('@u4/agendash');
 
 var agenda = new Agenda({
     db: { address: '<mongoUrl>'

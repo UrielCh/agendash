@@ -89,8 +89,8 @@ var app = express();
 
 // ... your other express middleware like body-parser
 
-var Agenda = require("agenda");
-var Agendash = require("agendash");
+var Agenda = require("@u4/agenda");
+var Agendash = require("@u4/agendash");
 
 var agenda = new Agenda({ db: { address: "mongodb://127.0.0.1/agendaDb" } });
 // or provide your own mongo client:

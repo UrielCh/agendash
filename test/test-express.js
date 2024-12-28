@@ -1,7 +1,7 @@
 const test = require("ava");
 const supertest = require("supertest");
 const express = require("express");
-let Agenda = require("agenda");
+let Agenda = require("@u4/agenda");
 Agenda = Agenda.Agenda || Agenda;
 
 const agenda = new Agenda().database(

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 "use strict";
-const Agenda = require("agenda");
+const Agenda = require("@u4/agenda");
 const agendash = require("../app");
 const Fastify = require("fastify");
 const program = require("commander");
