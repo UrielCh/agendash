@@ -36,6 +36,9 @@
     "Dockerfile",
     "entrypoint.sh"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@u4/agenda": "^5.0.2",
     "body-parser": "^1.19.2",
